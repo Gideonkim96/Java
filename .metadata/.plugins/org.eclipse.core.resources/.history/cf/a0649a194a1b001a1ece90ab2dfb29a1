@@ -1,0 +1,21 @@
+package com.rono.springdemo.mvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/student")
+public class StudentController {
+
+	@RequestMapping("/showForm")
+	public String showForm(Model theModel) {
+		// create a student obect
+		Student theStudent = new Student();
+		
+		// add student object to the modl
+		theModel.addAttribute(theStudent);
+		
+		return "student-form";
+	}
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Dec 11 14:03:00 EAT 2019
+org.eclipse.jst.jee.server\:/binary\:/Users/rono/eclipse-workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.2.1.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.1.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/rono/eclipse-workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar=WEB-INF/lib/spring-web-5.2.1.RELEASE.jar

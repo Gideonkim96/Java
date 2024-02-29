@@ -1,0 +1,5 @@
+package com.rono.springdemo.mvc.validation;
+
+public @interface CourseCode {
+
+}
