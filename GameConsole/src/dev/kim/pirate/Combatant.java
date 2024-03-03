@@ -54,7 +54,7 @@ public sealed abstract class Combatant implements Player
 
         int health = value("health");
         health += adj;
-        health = (health < 0) ? 0 : ((health > 100) ? 100 : health);
+        health = (health < 0) ? 0 : (Math.min(health, 100));
         setValue("health", health);
     }
 
