@@ -34,7 +34,7 @@ public class Main {
 
         var streamO = Stream.generate(Main::getCounter)
                         .limit(15)
-                                .map(i -> "O" + (rSeed + i));
+                                .map(i -> "K" + (rSeed + i));
 
         var streamBI = Stream.concat(streamB, streamI);
         var streamNG = Stream.concat(streamN, streamG);
@@ -46,7 +46,7 @@ public class Main {
         Stream.generate(() -> new Random().nextInt(rSeed, rSeed + 15))
                 .distinct()
                 .limit(15)
-                .map(i -> "O" + i)
+                .map(i -> "T" + i)
                 .sorted()
                 .forEach(System.out::println);
 
