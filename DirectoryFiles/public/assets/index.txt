@@ -1,0 +1,8 @@
+Directory Contents: 
+/Users/rono/eclipse-workspace/DirectoryFiles/public/assets
+/Users/rono/eclipse-workspace/DirectoryFiles/public/assets/icons
+/Users/rono/eclipse-workspace/DirectoryFiles/public/assets/icons/index.txt
+/Users/rono/eclipse-workspace/DirectoryFiles/public/assets/icons/indexCopy.txt
+/Users/rono/eclipse-workspace/DirectoryFiles/public/assets/index.txt
+/Users/rono/eclipse-workspace/DirectoryFiles/public/assets/indexCopy.txt
+Generated: 2024-03-07T12:35:42.845548
