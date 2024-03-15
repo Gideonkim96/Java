@@ -50,8 +50,8 @@ public class MusicCallableStatement {
                 System.getenv("MYSQL_USER"),
                 System.getenv("MYSQL_PASS"));
         ) {
-/*
-            CallableStatement cs = connection.prepareCall(
+
+/*            CallableStatement cs = connection.prepareCall(
                     "CALL music.addAlbumInOutCounts(?,?,?,?)");
 
             albums.forEach((artist, albumMap) -> {
