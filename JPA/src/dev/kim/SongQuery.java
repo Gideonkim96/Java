@@ -20,7 +20,7 @@ public class SongQuery {
                 EntityManager em = emf.createEntityManager();
         ) {
 
-            String dashedString = "-".repeat(19);
+            String dashedString = "-".repeat(30);
             String word = "Soul";
             var matches = getMatchedSongs(em, "%" + word + "%");
             System.out.printf("%-30s %-65s %s%n", "Artist", "Album", "Song Title");
